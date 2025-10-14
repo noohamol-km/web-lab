@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form action="submit" method="POST">
+<fieldset>
+<legend> Student Information </legend>
+<label for="name"> Name:</label>
+<select id="name" name="name" required>
+<option value="">Mr</option>
+<option value="1">Mr</option>
+<option value="2">Miss</option>
+<input type="text" id="name" name="name" required> 
+</select>
+<br>
+<br>
+<label for="phone">Phone Number:</label>
+<input type="text" id="name" name="phone" required> 
+<label for="email">Email:</label>
+<input type="text" id="email" name="email" required>
+<br>
+<br>
+</fieldset>
+<br>
+<label for="address">Address:</label>
+<textarea id="address" name="address" rows="3"></textarea>
+<br>
+<br>
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" value="Male" required>
+<label for="male" style="display:inline;">Male </label>
+
+<input type="radio" id="female" name="gender" value="Female" required>
+<label for="female" style="display:inline;">Female </label>
+
+<input type="radio" id="other" name="gender" value="Other" required>
+<label for="other" style="display:inline;"> Other </label>
+<br>
+<br>
+<label>Languages Known:</label>
+<input type="checkbox" id="english" name="english"
+value="English"/>
+<label for="english">English</label>
+<input type="checkbox" id="malayalam" name="malayalam"
+value="Malayalam"/>
+<label for="malayalam">Malayalam</label>
+<input type="checkbox" id="Hindi" name="hindi"
+value="Hindi"/>
+<label for="hindi">Hindi</label>
+<br>
+<br>
+<label for="course"> Courses:</label>
+<select id="course" name="course" required>
+<option value="1">MCA</option>
+<option value="2">MBA</option>
+<option value="3">MTECH</option>
+<option value="4">BTECH</option>
+<option value="5">PHD</option>
+</select>
+<br>
+<br>
+<center><input type="submit" value="Submit"/>
+<input type="reset" value="Cancel"/>
+</center>
+</form>
+</body>
+</html>
+
+
+
+
